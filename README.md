@@ -6,7 +6,7 @@
 
 
 
-Contact
+# Contact
 
 If you have any suggestions or questions, feel free to reach out to me via [email](yashwanthreddyparla@gmail.com) or connect with me on [Linkedin](https://www.linkedin.com/in/yaswanth-reddy-parla/).
 
