@@ -19,16 +19,13 @@ class Stack:
 
     def pop(self):
         """Pop an element from the stack."""
-        if self.is_empty():
-            raise IndexError("Pop from an empty stack")
         popped_data = self.top.data  # Get data from the top node
         self.top = self.top.next     # Move the top pointer to the next node
         return popped_data
 
     def peek(self):
         """Return the top element without removing it."""
-        if self.is_empty():
-            raise IndexError("Peek from an empty stack")
+
         return self.top.data
 
     def display(self):
@@ -46,6 +43,6 @@ stack.push(10)
 stack.push(20)
 stack.push(30)
 print("Stack:", stack.display())
-print("Top element:", stack.peek()) 
+print("Top element:", stack.peek())
 print("Popped element:", stack.pop())
 print("Stack after pop:", stack.display())
